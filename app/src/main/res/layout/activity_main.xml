@@ -24,5 +24,14 @@
         android:onClick="chapter2"
         app:layout_constraintLeft_toLeftOf="@+id/chapter1"
         app:layout_constraintTop_toBottomOf="@+id/chapter1"/>
+    <Button
+        android:id="@+id/chapter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Chapter3"
+        android:onClick="chapter3"
+        app:layout_constraintLeft_toLeftOf="@+id/chapter2"
+        app:layout_constraintTop_toBottomOf="@+id/chapter2"/>
 
 </android.support.constraint.ConstraintLayout>

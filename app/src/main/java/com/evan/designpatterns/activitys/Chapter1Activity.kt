@@ -35,8 +35,7 @@ class Chapter1Activity : AppCompatActivity() {
     private fun loadImage(){
 
         ImageLoader.imageLoader.setImageCache(DoubleCache())
-//        https://ws1.sinaimg.cn/large/610dc034gy1fi678xgq1ij20pa0vlgo4.jpg
-        ImageLoader.imageLoader.displayImageView(imageView,"https://wwws.sinaimg.cn/dy/slidenews/1_img/2017_29/88490_1334396_633374.jpg")
+        ImageLoader.imageLoader.displayImageView(imageView,"https://ws1.sinaimg.cn/large/610dc034gy1fi678xgq1ij20pa0vlgo4.jpg")
     }
 
 }

@@ -17,14 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
 
-    public void chapter1(View view){
+    public void chapter1(View view) {
         startActivity(new Intent(this, Chapter1Activity.class));
     }
 
-    public void chapter2(View view){
+    public void chapter2(View view) {
         /**
          * 三种单例模式的创建
          */
@@ -36,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void chapter3(View view) {
+        startActivity(new Intent(this, Chapter3Activity.class));
+    }
 
 
 }
